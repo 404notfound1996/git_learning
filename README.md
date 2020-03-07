@@ -1,2 +1,3 @@
 # git_learning
-learning git notes
+learning git notes 
+eg:git add -A
