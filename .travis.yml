@@ -4,8 +4,10 @@ branches:
   - master
 
 language: java
+dist: trusty
+sudo: false
 jdk:
-  - openjdk8
+  - oraclejdk8
   
 env:
   CATALINA_BASE=/home/travis
