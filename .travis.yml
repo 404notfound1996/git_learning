@@ -4,10 +4,11 @@ branches:
   - master
 
 language: java
-dist: trusty
 jdk:
   - openjdk8
-
+  
+env:
+  CATALINA_BASE=/home/travis
 
 sudo: false
 install: true
